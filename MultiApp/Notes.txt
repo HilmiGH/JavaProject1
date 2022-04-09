@@ -1,0 +1,152 @@
+Example: printf("\033[1;33m Hello World. \033[0m \n");
+\033      [1;        33m           xxxx
+|          |          |             |
+Start background color font color character string
+Some common color codes:
+none         = "\033[0m"
+black        = "\033[0;30m"
+dark_gray    = "\033[1;30m"
+blue         = "\033[0;34m"
+light_blue   = "\033[1;34m"
+green        = "\033[0;32m"
+light_green -= "\033[1;32m"
+cyan         = "\033[0;36m"
+light_cyan   = "\033[1;36m"
+red          = "\033[0;31m"
+light_red    = "\033[1;31m"
+purple       = "\033[0;35m"
+light_purple = "\033[1;35m"
+brown        = "\033[0;33m"
+yellow       = "\033[1;33m"
+light_gray   = "\033[0;37m"
+white        = "\033[1;37m"
+
+
+printf("\033[31m Hello world!\n\033[0m");
+    printf("\033[32m Hello world!\n\033[0m");
+    printf("\033[33m Hello world!\n\033[0m");
+    printf("\033[2;7;1m Hello kitty!\n\033[2;7;0m");
+
+
+
+Printf("\033[word background color; font color m string \033[0m" );
+
+example:
+printf("\033[1m\033[45;33m HELLO_WORLD \033[0m\n");
+
+
+Color code: QUOTE:
+Word background color range: 40--49 word color: 30-39
+40: Black 30: Black
+41: Red 31: Red
+42: Green 32: Green
+43: Yellow 33: Yellow
+44: Blue 34: Blue
+45: Purple 35: Purple
+46: Dark Green 36: Dark Green
+47: white 37: white
+ANSI control code:
+ QUOTE:
+\033[0m close all properties
+\033[1m set high brightness
+\033[4m underline
+\033[5m flashing
+\033[7m reverse display
+\033[8m blanking
+\033[30m -- \033[37m set the foreground color
+\033[40m -- \033[47m set background color
+\033[nA Cursor up n lines
+\03[nB Cursor down n lines
+\033[nC Cursor right shift n lines
+\033[nD Cursor left n lines
+
+
+
+public class ConsoleColors {
+    // Reset
+    public static final String RESET = "\033[0m";  // Text Reset
+
+    // Regular Colors
+    public static final String BLACK = "\033[0;30m";   // BLACK
+    public static final String RED = "\033[0;31m";     // RED
+    public static final String GREEN = "\033[0;32m";   // GREEN
+    public static final String YELLOW = "\033[0;33m";  // YELLOW
+    public static final String BLUE = "\033[0;34m";    // BLUE
+    public static final String PURPLE = "\033[0;35m";  // PURPLE
+    public static final String CYAN = "\033[0;36m";    // CYAN
+    public static final String WHITE = "\033[0;37m";   // WHITE
+
+    // Bold
+    public static final String BLACK_BOLD = "\033[1;30m";  // BLACK
+    public static final String RED_BOLD = "\033[1;31m";    // RED
+    public static final String GREEN_BOLD = "\033[1;32m";  // GREEN
+    public static final String YELLOW_BOLD = "\033[1;33m"; // YELLOW
+    public static final String BLUE_BOLD = "\033[1;34m";   // BLUE
+    public static final String PURPLE_BOLD = "\033[1;35m"; // PURPLE
+    public static final String CYAN_BOLD = "\033[1;36m";   // CYAN
+    public static final String WHITE_BOLD = "\033[1;37m";  // WHITE
+
+    // Underline
+    public static final String BLACK_UNDERLINED = "\033[4;30m";  // BLACK
+    public static final String RED_UNDERLINED = "\033[4;31m";    // RED
+    public static final String GREEN_UNDERLINED = "\033[4;32m";  // GREEN
+    public static final String YELLOW_UNDERLINED = "\033[4;33m"; // YELLOW
+    public static final String BLUE_UNDERLINED = "\033[4;34m";   // BLUE
+    public static final String PURPLE_UNDERLINED = "\033[4;35m"; // PURPLE
+    public static final String CYAN_UNDERLINED = "\033[4;36m";   // CYAN
+    public static final String WHITE_UNDERLINED = "\033[4;37m";  // WHITE
+
+    // Background
+    public static final String BLACK_BACKGROUND = "\033[40m";  // BLACK
+    public static final String RED_BACKGROUND = "\033[41m";    // RED
+    public static final String GREEN_BACKGROUND = "\033[42m";  // GREEN
+    public static final String YELLOW_BACKGROUND = "\033[43m"; // YELLOW
+    public static final String BLUE_BACKGROUND = "\033[44m";   // BLUE
+    public static final String PURPLE_BACKGROUND = "\033[45m"; // PURPLE
+    public static final String CYAN_BACKGROUND = "\033[46m";   // CYAN
+    public static final String WHITE_BACKGROUND = "\033[47m";  // WHITE
+
+    // High Intensity
+    public static final String BLACK_BRIGHT = "\033[0;90m";  // BLACK
+    public static final String RED_BRIGHT = "\033[0;91m";    // RED
+    public static final String GREEN_BRIGHT = "\033[0;92m";  // GREEN
+    public static final String YELLOW_BRIGHT = "\033[0;93m"; // YELLOW
+    public static final String BLUE_BRIGHT = "\033[0;94m";   // BLUE
+    public static final String PURPLE_BRIGHT = "\033[0;95m"; // PURPLE
+    public static final String CYAN_BRIGHT = "\033[0;96m";   // CYAN
+    public static final String WHITE_BRIGHT = "\033[0;97m";  // WHITE
+
+    // Bold High Intensity
+    public static final String BLACK_BOLD_BRIGHT = "\033[1;90m"; // BLACK
+    public static final String RED_BOLD_BRIGHT = "\033[1;91m";   // RED
+    public static final String GREEN_BOLD_BRIGHT = "\033[1;92m"; // GREEN
+    public static final String YELLOW_BOLD_BRIGHT = "\033[1;93m";// YELLOW
+    public static final String BLUE_BOLD_BRIGHT = "\033[1;94m";  // BLUE
+    public static final String PURPLE_BOLD_BRIGHT = "\033[1;95m";// PURPLE
+    public static final String CYAN_BOLD_BRIGHT = "\033[1;96m";  // CYAN
+    public static final String WHITE_BOLD_BRIGHT = "\033[1;97m"; // WHITE
+
+    // High Intensity backgrounds
+    public static final String BLACK_BACKGROUND_BRIGHT = "\033[0;100m";// BLACK
+    public static final String RED_BACKGROUND_BRIGHT = "\033[0;101m";// RED
+    public static final String GREEN_BACKGROUND_BRIGHT = "\033[0;102m";// GREEN
+    public static final String YELLOW_BACKGROUND_BRIGHT = "\033[0;103m";// YELLOW
+    public static final String BLUE_BACKGROUND_BRIGHT = "\033[0;104m";// BLUE
+    public static final String PURPLE_BACKGROUND_BRIGHT = "\033[0;105m"; // PURPLE
+    public static final String CYAN_BACKGROUND_BRIGHT = "\033[0;106m";  // CYAN
+    public static final String WHITE_BACKGROUND_BRIGHT = "\033[0;107m";   // WHITE
+    }
+
+// Define color constants
+public static final String TEXT_RESET = "\u001B[0m";
+public static final String TEXT_BLACK = "\u001B[30m";
+public static final String TEXT_RED = "\u001B[31m";
+public static final String TEXT_GREEN = "\u001B[32m";
+public static final String TEXT_YELLOW = "\u001B[33m";
+public static final String TEXT_BLUE = "\u001B[34m";
+public static final String TEXT_PURPLE = "\u001B[35m";
+public static final String TEXT_CYAN = "\u001B[36m";
+public static final String TEXT_WHITE = "\u001B[37m";
+
+// Implementation
+System.out.println(TEXT_RED + "This text is red!" + TEXT_RESET);

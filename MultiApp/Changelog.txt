@@ -1,0 +1,178 @@
+Changelogs
+----------------------------------------------------------------------------------------------------------------------
+Current version : V. 0.0.1.5 "The Text Reimagined Update"
+----------------------------------------------------------------------------------------------------------------------
+[Pre Alpha] MultiApp
+
+Latest Update:
+[02/08/2021 - 07/08/2021 ]
+V. 0.0.1.8 update "The New World Update":
+
+- Added random number generator
+- End of further development
+:') Thanks for everyone's support :) i hope we can meet again in the future!
+
+(actually, i wanted to remake this app in my Python... :)  )
+
+
+
+
+total code : 1395
+
+Planned for next update :
+
+> additions
+
+- Finished the Story 1
+- added Islam Stuffs
+- Add ghost texts
+- created a new GUI
+- Story mode WIP
+- Embed Cmder into my App
+- Add Hadits, Quran and islamic stuff (for syiar)
+- Add background, Pictures and Logos (UI)
+- Add clickable/Chooseable buttons
+- Add clicking sound
+- Add a To Do list with data save
+- Add an int checker, so if the user inputs string, it wont break but goes back/loop back again.
+- Add a RPG game, guessing/quiz game, a rock paper scissor game, tic tac toe, pong, Snake
+- Add a background (if possible)
+- multi threading (multiple things happening at the same time)
+- Add colours in other classes (StoryMode and Fun Town) (it's not added yet for compability)
+
+> Researches
+- How to put in music
+- How to move the cursor back
+- How to clear the console
+- How to add color and background
+
+> Unsolved Bug
+- (bug) 
+
+Alright, now we're on the Age Calculator. now choose what calculator type do you want
+Choose between Current Age or Birth Year !
+Alright, now we're on the Age Calculator. now choose what calculator type do you want
+Choose between Current Age or Birth Year !
+
+after pressing back from current age or birth year
+
+- (bug) after going back from current age
+Alright, now we're on the Age Calculator. now choose what calculator type do you want
+
+Choose between Current Age or Birth Year !
+
+Or if you want to go back, type 'back'
+
+Sorry, the input didn't match anything. Please, try again!
+
+-(bug)
+Now we're at the Distance Speed Time formula.
+In this formula, we have Distance (s), Speed(v), and Time(t). All can be written with decimals (use (.) Ex: 1.3
+The basic formula of this is s = v . t
+Now, Choose which unit/measure you want to calculate! (type 'Distance' or the others
+Or if you want to go back, type 'back'
+Now we're at the Distance Speed Time formula.
+In this formula, we have Distance (s), Speed(v), and Time(t). All can be written with decimals (use (.) Ex: 1.3
+The basic formula of this is s = v . t
+Now, Choose which unit/measure you want to calculate! (type 'Distance' or the others
+Or if you want to go back, type 'back'
+
+after pressing back from the distance calculation
+
+-(bug)
+Now we're at the Force Mass Acceleration formula.
+In this formula, we have Force (F), Mass(m), and Acceleration(a). All can be written with decimals (use (.) Ex: 1.3)
+The basic formula of this is F = m . a
+Now, Choose which unit/measure you want to calculate! (type 'Force' or the others.
+Or if you want to go back, type 'back'
+Now we're at the Force Mass Acceleration formula.
+In this formula, we have Force (F), Mass(m), and Acceleration(a). All can be written with decimals (use (.) Ex: 1.3)
+The basic formula of this is F = m . a
+Now, Choose which unit/measure you want to calculate! (type 'Force' or the others.
+Or if you want to go back, type 'back'
+
+after pressing back from force calculation
+
+
+Earlier updates :
+Latest Update:
+[02/08/2021 - 06/08/2021 ]
+V. 0.0.1.7 update "The Colorful Update":
+- Added 20 more Facts
+- Separated the coloured (multiApp) and the non coloured (multiAppAlt) Version
+- Added Colours!
+- Fixed the "or if you want to go back" and "notes" and "the answer"
+- Added some art for Art of Java
+- Color fixed (All blue changed to cyan)
+- Fixed the story mode (enter to continue, note: be patient don't spam enter)
+- Fixed Randfun fact
+- Press enter to continue (color and function fixed)
+- Added music
+total code : 1833
+
+[31/7/2021 - 2/8/2021]
+V. 0.0.1.6 update "The Great Fix Update":
+- Reworked all the line spacings
+- fixed some bugs
+- added more notes yg berkaitan dgn context (dan juga yg cmds dibesarin for better design/visual dan can't type back at input number)
+- notes will use print (so it will be quicker shown)
+- added 'no' as a potential to go back other than 'back'
+- Added 20 more fun facts
+- Added the (Your input :) so it will be nicer
+- Add the yes or no function
+- Overall Performance Update
+total code : 1547
+ 
+[30/7/2021]
+V. 0.0.1.5 update "The Text Reimagined update":
+- Added a reminder if the input isn't matching anything.
+- Added a credit section.
+- The Fun facts in fun town is now optional with 30 facts!
+- fun facts rewind update to make it better
+- Reworked all the typing animations
+- Added wait in most part (so it looks natural and better)
+total code : 1395
+
+[29/7/2021]
+V. 0.0.1.4 update "The Back-way Update":
+- Research on the back button/method
+- (idk if its a bug or not. If you press enter then type the word correctly, it will repeat the question and gives the answer at the same time
+- Added 'back' button to every part! (Using while to go back/return)
+- The app will now repeat itself and not close, so you can use the app as much as you want!
+- We reached 1000 code milestone!!!
+total code : 1082
+
+[28/7/2021] 
+V. 0.0.1.2 update :
+- change the physics formula and Advanced formula scanner to number for easier choosing the formula
+- add scanning symbols (+ - etc) on math for easier scanning
+- Added Force Mass Acceleration formula in Math.Physics
+- Created a return to main menu but can't 
+- Added Fun Town with Fun Facts (WIP)
+total code : 755
+
+[27/7/2021] 
+V. 0.0.1.1 update :
+- found out how to initiate/operate a class from another class (calculator.main() di multiApp)
+- Created the MultiApp home section
+- Added the Physics and Advanced Maths section in the calculator
+- Added the DistanceSpeedTime formula in the calculator.physics section
+- Added loading screen in multiApp
+- Added choosing screen in multiApp
+- Calculator can now be opened from multiApp
+- Scanner will now ignore case for easier word checking
+- Added Fun Town and Story Mode in multiApp
+- Added 2 story options in Story Mode (WIP)
+total code : 671
+
+[15/7/2021] 
+V. 0.0.1 update "The Birth Update" :
+- The start of the MultiApp Project
+- Added Calculator Section
+- Added Math calculator
+- Added Age calculator
+- divided the Math section to 2 data type; whole number and float number
+- Added +, -, *, /, modulo in Math calculator
+- divided the Age Section to 2 type ; Current Age and Birth Year
+- Added typeWriterEffect (word typing animations)
+total code : 236
